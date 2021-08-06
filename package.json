@@ -9,11 +9,13 @@
     "test": "jest"
   },
   "dependencies": {
-    "mysql2": "^2.2.5",
+    "@auth0/nextjs-auth0": "^1.5.0",
+    "net": "^1.0.2",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "serverless-mysql": "^1.5.4",
+    "tls": "0.0.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
