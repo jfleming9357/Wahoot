@@ -1,4 +1,4 @@
-import { sql_query } from '../../config/mysql-config';
+import { sql_query } from '/Users/jasonfleming/Documents/Wahoot/src/config/mysql-config.js';
 
 export default async function checkUser(req, res) {
   const { email } = req.body;

@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.5.0",
+    "fs": "^0.0.1-security",
     "net": "^1.0.2",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "serverless-mysql": "^1.5.4",
     "tls": "0.0.1",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.1.0",

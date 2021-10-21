@@ -33,7 +33,7 @@ export default function CreatorPage() {
     setCurrQuestionTitle('');
     currCorrectAnswers.forEach((ans, idx) => {
       if (ans) {
-        document.getElementById('checkbox' + idx).checked = false;
+        // document.getElementById('checkbox' + idx).checked = false;
       }
     });
     setCurrCorrectAnswers(Array(4).fill(false));
@@ -47,7 +47,7 @@ export default function CreatorPage() {
     setCurrCorrectAnswers(q.correctAns);
     q.correctAns.forEach((ans, idx) => {
       if (ans) {
-        document.getElementById('checkbox' + idx).checked = true;
+        // document.getElementById('checkbox' + idx).checked = true;
       }
     });
     setTimeLimit(q.timeLimit);
